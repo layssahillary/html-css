@@ -1,0 +1,17 @@
+
+        body{
+            background-color: aquamarine;
+            font-family: Georgia, 'Times New Roman', Times, ;
+            font-size: 20px;
+        }
+        h1{
+            color: chartreuse;
+            background-color: rgb(52, 111, 179);
+        }
+        h2{
+            color: darkviolet;
+        }
+        p{
+            text-align: justify;
+        }
+  
