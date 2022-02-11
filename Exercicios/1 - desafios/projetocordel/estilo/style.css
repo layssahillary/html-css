@@ -3,9 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Syne+Tactile&display=swap');
 
 
+/*root é onde colocas as variaveis (--variavel)*/
 :root{
     --fonte1: 'Arvo', serif;
-    --fonte2:  'Syne Tactile';
+    --fonte2:  'Syne Tactile'; 
 }
 
 
@@ -24,7 +25,7 @@ html, body{
 }
 
 header{
-    background-color: black;
+    background-color: rgb(228, 128, 47);
     color: white;
     text-align: center;
     
@@ -78,14 +79,14 @@ section.imagem{
     background-color: rgb(53, 52, 52);
     color: white;
     box-shadow: inset 6px 6px 13px 0px black;
-    background-size: cover;
+    background-size: cover; /*deixa  a imagem toda ocupar o lugar todo*/
     background-attachment: fixed; /* Esse deixa a iamgem de fundo fixa*/
 
 
 }
 
 section.imagem > p{
-    display: inline-block;
+    display: inline-block; 
     padding-left: 5px;
     background-color: rgba(0, 0, 0, 0.562);
     text-shadow: 2px 2px 0px black;
@@ -105,7 +106,7 @@ section#img02{
 
 }
 footer{
-    background-color: black;
+    background-color: rgb(228, 100, 15);
     color: white;
     text-align: center;
     padding: 10px;
